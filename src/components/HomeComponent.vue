@@ -1,12 +1,16 @@
 <template>
-  <div class="bg-gray-900">
-    hom
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+  <div class="container flex justify-between boder-b">
+    <Navbar />
+    <SearchbarVue />
   </div>
+    <PopularMovies />
 </template>
 
 <script>
-export default {};
+import SearchbarVue from './header/Searchbar.vue';
+import Navbar from './header/Navbar.vue';
+import PopularMovies from '@/components/PopularMovies.vue'
+export default { components: { Navbar, SearchbarVue, PopularMovies } };
 </script>
 
 <style lang="scss" scoped></style>
