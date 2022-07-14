@@ -59,8 +59,8 @@
 </template>
 
 <script>
-import MovieImages from '@/components/Images.vue'
-import Cast from '@/components/Cast'
+import MovieImages from '@/components/movies/Images.vue'
+import Cast from '@/components/movies/Cast'
 export default {
     name: "Movie",
     components: {

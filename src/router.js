@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from "./components/HomeComponent.vue"
-import Movie from './components/Movie.vue';
+import Movie from '@/components/movies/Movie.vue'
 const router = createRouter({
     history: createWebHistory(),
     routes: [
