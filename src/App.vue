@@ -16,9 +16,6 @@ export default {
     Navbar,
     SearchbarVue
   }
-
-
-
 };
 </script>
 

@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from "./components/HomeComponent.vue"
 import Movie from '@/components/movies/Movie.vue'
+import Actor from './components/actors/Actor.vue';
 const router = createRouter({
     history: createWebHistory(),
     routes: [
@@ -10,6 +11,14 @@ const router = createRouter({
         component: Home,
         meta:{
           title: 'Home'
+        }
+      },
+      {
+        path: '/actors',
+        name: 'actor',
+        component: Actor,
+        meta:{
+          title: 'Actor'
         }
       },
       {
